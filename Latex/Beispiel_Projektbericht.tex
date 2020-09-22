@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%% author.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% sample root file for your "contribution" to a proceedings volume
+%
+% Use this file as a template for your own input.
+%
+%%%%%%%%%%%%%%%% Springer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass{svproc}
+%
+% RECOMMENDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+% to typeset URLs, URIs, and DOIs
+\usepackage{url}
+\usepackage[english, german, ngerman]{babel}
+\selectlanguage{ngerman}
+\usepackage[utf8]{inputenc}     % can use native umlauts
+
+\def\UrlFont{\rmfamily}
+
+\begin{document}
+\mainmatter              % start of a contribution
+%
+\title{Predicting Contamined PCR Plates in a Metagenomic Sequencing Study}
+%
+\titlerunning{Optimale Generierung von Praktikumsberichten}  % abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+\author{Maximilian Joas\inst{1} }
+%
+%\authorrunning{$<$Joas$>$ et al.} % abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+\tocauthor{Maximilian Joas}
+%
+\institute{Universität Leipzig\\Machine Learning Group\\Leipzig, Germany\\
+\email{mj13body@studserv.uni-leipzig.de}}
+%
+\maketitle              % typeset the title of the contribution
+%
+\begin{abstract}
+    Geben Sie Ihrer Ausarbeitung einen möglichst aussagekräftigen Titel und fassen Sie Ihre Arbeit \textit{nach Fertigstellung des eigentlichen Berichts} noch einmal an dieser Stelle so kurz wie möglich zusammen. Versuchen Sie dabei folgende Aspekte jeweils mit einem Satz (maximal zwei Sätze) zusammenzufassen: Fragestellung, Methodik, Ergeb\-nisse, Schlussfolgerungen. Die Zusammenfassung muss nicht voll\-ständig sein, sondern sollte in erste Linie so klar wie möglich herausstellen, warum es sich lohnt, die vorliegende Arbeit vollständig zu lesen.
+    \keywords{Maschinelles Lernen, Empirische Daten, Wissenschaftliches Arbeiten}
+\end{abstract}
+%
+%
+\section{Fragestellung}
+%
+With the rise of Next Generation Sequencing the field of Metagenomics
+The invention of Next Generation Sequencing (NGS) 
+\section{Stand der Technik}
+
+Dieser Abschnitt sollte kurz die wichtigsten Aspekte der Fragestellung wissenschaftlich untermauern -- insbesondere solche Aspekte, die später wieder aufgegriffen werden und zum Verständnis der Arbeit nötig sind. 
+
+Belegen Sie Ihre Ausführungen in diesem Kapitel, wo immer möglich, mit Zitaten bzw. Referenzen auf Fachartikel, Lehrbücher und andere \textit{wissenschaftliche} Publikationen. Beachten Sie beim Verweis auf andere Arbeiten die gängigen Konventionen zur guten wissenschaftlichen Praxis \cite{DFG2019} und orientieren Sie sich in Ihrer konkreten Zitierweise am Zitierleitfaden der TU München \cite{TUM2019}.
+
+Eine bloße Aufzählung bzw. Zusammenfassung anderer Arbeiten ist allerdings nicht ausreichend. Entscheidend ist vielmehr, diese kurz einzuordnen, d.h. nachvollziehbar zu begründen, \textit{warum} diese Arbeiten für die gegebene Fragestellung relevant sind bzw. \textit{warum} die darin vorgeschlagenen Lösungsansätze im vorliegenden Fall nicht greifen. Bei Vergleichen mehrerer Arbeiten sollten sowohl Gemeinsamkeiten als auch Unterschiede herausgestellt werden.  
+%
+%
+\section{Methodik}
+%
+Hier wird erläutert, wie die im ersten Abschnitt eingeführte Fragestellung bearbeitet wurde. Er sollte sowohl die Vorgehensweise insgesamt als auch die konkret genutzten Methoden und Hilfsmittel so präzise wie möglich beschreiben. Zu unterscheiden sind dabei Konzeption und Implementierung der Methodik.
+
+Unter \textbf{Konzeption} ist die grundsätzliche Herangehensweise und Probem\-lös\-ungsstrategie zu verstehen, die beschrieben und begründen werden soll. Dies kann etwa der Ansatz an sich (z.B. Klassifikation mittels Regressor), die Wahl eines bestimmten Modells oder bestimmter Lernverfahren umfassen. 
+
+Unabhängig von der Konzeption sollte die \textbf{Implementierung}, d.h. die konkrete Umsetzung der zuvor entworfenen Konzeption, beschrieben und begründet werden. Bei maschinellen Lernverfahren sollten insbesondere alle Trainingsparameter der eingesetzen Algorithmen genannt werden (ggf. als Tabelle). werden beim Preprocessing komplexere Arbeitsschritte angewendet (die z.B. eigene Berechnungen erfordern), sollten diese hier ebenfalls beschrieben werden.
+
+Wichtig ist, dass die eigenen Ideen und Beiträge als solche hervorgehoben werden. Idealerweise sollten in diesem Kapitel wissenschaftliche Innovationen und/oder eine eigenständige kreative Methodik erkennbar sein. 
+%
+%
+\section{Ergebnisse}
+%
+Nach Möglichkeit sollten alle \textit{relevanten} Ergebnisse der Arbeit in einem eigenen Ergebnis-Abschnitt gebündelt wiedergegeben werden. Nutzen Sie hierfür ggf. Subsections. Die Darstellung der Ergebnisse kann je nach Zusammenhang oder Zielsetzung mittels Tabellen (siehe z.B. Tabelle \ref{tab1}), Diagrammen oder anderer Abbildungen erfolgen, die zusätzlich kurz so neutral und objektiv wie möglich in Worten beschrieben werden. Beschränken Sie sich dabei auf die wesentlichsten Ergebnisse - ohne jedoch zu beschönigen oder unliebsame Daten auszulassen. 
+
+\begin{table}
+    \caption{Beispieltabelle für erzielte Ergebnisse.}
+    \begin{center}
+        \begin{tabular}{r@{\quad}rl}
+            \hline
+            \multicolumn{1}{l}{\rule{0pt}{12pt}
+                   Year}&\multicolumn{2}{l}{World population}\\[2pt]
+                                    \hline\rule{0pt}{12pt}
+                    8000 B.C.  &     5,000,000& \\
+                    50 A.D.  &   200,000,000& \\
+                    1650 A.D.  &   500,000,000& \\
+                    1945 A.D.  & 2,300,000,000& \\
+                    1980 A.D.  & 4,400,000,000& \\[2pt]
+                    \hline
+        \end{tabular}
+    \end{center}
+    \label{tab1}
+\end{table}
+%
+%
+\section{Diskussion}
+%
+Wichtiges Kennzeichen wissenschaftlichen Arbeitens ist die Trennung von Ergebnissen und deren Bewertung. Während im Abschnitt ``Ergebnisse'' entsprechend weitgehend auf Bewertungen verzichtet wird, findet die eigentliche Auswertung bzw. Interpretation der Ergebnisse in diesem Abschnitt statt. Ein weiteres Ziel ist eine kritische Reflexion der verwendeten Methodik. 
+
+Bei der \textbf{Interpretation der Ergebnisse} sollten Sie regelmäßig Bezug auf die im Abschnitt ``Ergebnisse'' aufgeführten Tabellen oder Abbildungen nehmen. Eine bloße Zusammenfassung der erzielten Ergebnisse ist allerdings nicht ausreichend. Entscheidend ist vielmehr, die Ergebnisse einzuordnen und hinsichtlich ihrer Plausibilität sowie möglicher Fehler zu hinterfragen.
+    
+Bei der \textbf{Reflexion der Methoden} stellen Sie dar, inwieweit die von Ihnen gewählte Methodik dazu geeignet ist, die gewählte Fragestellung zu beantworten. Ein wichtiges wissenschaftliches Instrument dafür ist der Vergleich Ihrer Methode(n) mit einer oder mehreren Referenzmethoden. Es sollen sowohl Stärken bzw. Nutzen der Arbeit als auch deren Schwächen bzw. Grenzen dargestellt werden.
+%
+%
+\section{Schlussfolgerungen}
+%
+Der letzte Abschnitt rundet die Arbeit mit einer zusammenfassenden Einordnung der erzielten Ergebnisse und der gewonnenen Erkenntnisse ab. Darin sollte insbesondere die im ersten Abschnitt eingeführte Forschungsfrage aufgegriffen und beantwortet werden. Im Idealfall wird darüber hinaus ein (kurzer) Ausblick auf potenzielle oder tatsächlich geplante weiterführende Arbeiten oder neue Fragestellungen gegeben, die sich aus der vorliegenden Arbeit ergeben.
+
+
+%
+% ---- Bibliography ----
+%
+%
+\bibliographystyle{plain}
+\bibliography{myLiterature.bib}
+
+
+\end{document}

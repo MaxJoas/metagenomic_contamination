@@ -1,0 +1,119 @@
+%%%%%%%%%%%%%%%%%%%% author.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% sample root file for your "contribution" to a proceedings volume
+%
+% Use this file as a template for your own input.
+%
+%%%%%%%%%%%%%%%% Springer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass{svproc}
+%
+% RECOMMENDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+% to typeset URLs, URIs, and DOIs
+\usepackage{url}
+\usepackage[english, german, ngerman]{babel}
+\selectlanguage{ngerman}
+\usepackage[utf8]{inputenc}     % can use native umlauts
+
+\def\UrlFont{\rmfamily}
+
+\begin{document}
+\mainmatter              % start of a contribution
+%
+\title{Predicting Contamined PCR Plates in a Metagenomic Sequencing Study}
+%
+\titlerunning{Optimale Generierung von Praktikumsberichten}  % abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+\author{Maximilian Joas\inst{1} }
+%
+%\authorrunning{$<$Joas$>$ et al.} % abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+\tocauthor{Maximilian Joas}
+%
+\institute{Universität Leipzig\\Machine Learning Group\\Leipzig, Germany\\
+\email{mj13body@studserv.uni-leipzig.de}}
+%
+\maketitle              % typeset the title of the contribution
+%
+\begin{abstract}
+    Geben Sie Ihrer Ausarbeitung einen möglichst aussagekräftigen Titel und fassen Sie Ihre Arbeit \textit{nach Fertigstellung des eigentlichen Berichts} noch einmal an dieser Stelle so kurz wie möglich zusammen. Versuchen Sie dabei folgende Aspekte jeweils mit einem Satz (maximal zwei Sätze) zusammenzufassen: Fragestellung, Methodik, Ergeb\-nisse, Schlussfolgerungen. Die Zusammenfassung muss nicht voll\-ständig sein, sondern sollte in erste Linie so klar wie möglich herausstellen, warum es sich lohnt, die vorliegende Arbeit vollständig zu lesen.
+    \keywords{Maschinelles Lernen, Empirische Daten, Wissenschaftliches Arbeiten}
+\end{abstract}
+%
+%
+\section{Research Question}
+%
+Advances and cost reduction of sequencing expirements had an vast impact on the field of Metagenomics (research that focuses on many genomes at the same time). The vast amount of data obtained from whole genome sequencing experiments in metegenomic leads to oppurtunities in pathogen detection, ecological studies and drug development \cite{THREE OPNE TABS}. On the other had the abundance of data poses challenges to the analysis of metagenomic data. Consequently, classical statistical methods reach their limits and other approaches such as machine learning are often used \cite{Paperunde}.\\
+
+
+Not only the amount of data, but also the type of data are challenging, on top of that the technical prorcess of sequencing can lead to problems.
+In particular, contamination an noise are important problems when studying metagenomics \cite{paper Michel}. Noised up and or contmained data can lead to false conclusions in experiments. Therefore it would be valuable to predict contamination on PCR plates and find factors that are distinctive to contamined PCR plates. In this article I will investigate if it is possible to predict contamined PCR plates based on OTU counts as well as meta data. Furhtermore I will present factors that distinghuis contamined from not contamined PCR plates with the help of machine learning.
+
+
+\section{State of the Art}
+Machine learnig methods have benn successfully used in the study of metagenomics data  \cite{paperrunde}. However, specifically on my research question there are, to the best of my knowledge no publications. Nevertheless, this section aims to give an overview of the state of the art of the implemented methods. In general, machine learning methods are distinguished in supervised and unsupervised methods. In the case of supervised learning there is a known mapping metween input and target variable and the methods learn the assocation and can predict the output variable for new data. In this case the target variable is if the PCR plate is contamined.
+TODO
+
+ 
+%
+%
+\section{Methodik}
+%
+The research question is divided into two parst: (I)
+\subsection{Data and Preprocessing}
+\subsection{Supervised Learning Methods}
+%
+%
+\section{Ergebnisse}
+%
+Nach Möglichkeit sollten alle \textit{relevanten} Ergebnisse der Arbeit in einem eigenen Ergebnis-Abschnitt gebündelt wiedergegeben werden. Nutzen Sie hierfür ggf. Subsections. Die Darstellung der Ergebnisse kann je nach Zusammenhang oder Zielsetzung mittels Tabellen (siehe z.B. Tabelle \ref{tab1}), Diagrammen oder anderer Abbildungen erfolgen, die zusätzlich kurz so neutral und objektiv wie möglich in Worten beschrieben werden. Beschränken Sie sich dabei auf die wesentlichsten Ergebnisse - ohne jedoch zu beschönigen oder unliebsame Daten auszulassen. 
+
+\begin{table}
+    \caption{Beispieltabelle für erzielte Ergebnisse.}
+    \begin{center}
+        \begin{tabular}{r@{\quad}rl}
+            \hline
+            \multicolumn{1}{l}{\rule{0pt}{12pt}
+                   Year}&\multicolumn{2}{l}{World population}\\[2pt]
+                                    \hline\rule{0pt}{12pt}
+                    8000 B.C.  &     5,000,000& \\
+                    50 A.D.  &   200,000,000& \\
+                    1650 A.D.  &   500,000,000& \\
+                    1945 A.D.  & 2,300,000,000& \\
+                    1980 A.D.  & 4,400,000,000& \\[2pt]
+                    \hline
+        \end{tabular}
+    \end{center}
+    \label{tab1}
+\end{table}
+%
+%
+\section{Diskussion}
+%
+Wichtiges Kennzeichen wissenschaftlichen Arbeitens ist die Trennung von Ergebnissen und deren Bewertung. Während im Abschnitt ``Ergebnisse'' entsprechend weitgehend auf Bewertungen verzichtet wird, findet die eigentliche Auswertung bzw. Interpretation der Ergebnisse in diesem Abschnitt statt. Ein weiteres Ziel ist eine kritische Reflexion der verwendeten Methodik. 
+
+Bei der \textbf{Interpretation der Ergebnisse} sollten Sie regelmäßig Bezug auf die im Abschnitt ``Ergebnisse'' aufgeführten Tabellen oder Abbildungen nehmen. Eine bloße Zusammenfassung der erzielten Ergebnisse ist allerdings nicht ausreichend. Entscheidend ist vielmehr, die Ergebnisse einzuordnen und hinsichtlich ihrer Plausibilität sowie möglicher Fehler zu hinterfragen.
+    
+Bei der \textbf{Reflexion der Methoden} stellen Sie dar, inwieweit die von Ihnen gewählte Methodik dazu geeignet ist, die gewählte Fragestellung zu beantworten. Ein wichtiges wissenschaftliches Instrument dafür ist der Vergleich Ihrer Methode(n) mit einer oder mehreren Referenzmethoden. Es sollen sowohl Stärken bzw. Nutzen der Arbeit als auch deren Schwächen bzw. Grenzen dargestellt werden.
+%
+%
+\section{Schlussfolgerungen}
+%
+Der letzte Abschnitt rundet die Arbeit mit einer zusammenfassenden Einordnung der erzielten Ergebnisse und der gewonnenen Erkenntnisse ab. Darin sollte insbesondere die im ersten Abschnitt eingeführte Forschungsfrage aufgegriffen und beantwortet werden. Im Idealfall wird darüber hinaus ein (kurzer) Ausblick auf potenzielle oder tatsächlich geplante weiterführende Arbeiten oder neue Fragestellungen gegeben, die sich aus der vorliegenden Arbeit ergeben.
+
+
+%
+% ---- Bibliography ----
+%
+%
+\bibliographystyle{plain}
+\bibliography{Paperrunde.bib}
+
+
+\end{document}
