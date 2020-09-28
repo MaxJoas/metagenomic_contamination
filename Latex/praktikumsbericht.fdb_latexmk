@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex praktikumsbericht"] 1601244949 "praktikumsbericht.aux" "praktikumsbericht.bbl" "praktikumsbericht" 1601244949
+["bibtex praktikumsbericht"] 1601314889 "praktikumsbericht.aux" "praktikumsbericht.bbl" "praktikumsbericht" 1601314889
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "Paperrunde.bib" 1601243848 10702 7d145f1f4601b8c33acb57cf781fbdc2 ""
-  "praktikumsbericht.aux" 1601244949 2048 dff5aa3d4964838e69fda2d9085cbd2f ""
+  "praktikumsbericht.aux" 1601314888 1988 802e301759a4257ea45a928a349f9f92 ""
   "praktikumsbericht.bcf" 0 -1 0 ""
   (generated)
-  "praktikumsbericht.blg"
   "praktikumsbericht.bbl"
-["pdflatex"] 1601244948 "praktikumsbericht.tex" "praktikumsbericht.pdf" "praktikumsbericht" 1601244948
+  "praktikumsbericht.blg"
+["pdflatex"] 1601314888 "praktikumsbericht.tex" "praktikumsbericht.pdf" "praktikumsbericht" 1601314888
   "/etc/texmf/web2c/texmf.cnf" 1572786941 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -25,12 +25,14 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1480098733 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1480098733 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1480098733 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1480098733 36094 798f80770b3b148ceedd006d487db67c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1480098733 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1480098733 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1480098733 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1480098733 32442 c975af247b6702f7ca0c299af3616b80 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1480098733 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb" 1480098733 29078 718ea4567ceff944262b0f5b0800e1d9 ""
@@ -74,13 +76,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1572786971 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1572786991 4127301 e09ab65a45baed3724b6e360d7713111 ""
   "aliascnt.sty" 1402907262 2598 b30528bf103263149326b7572d9672a5 ""
-  "figs/plotsPraktikum.png" 1601027402 128255 ae9272926239534f017f726bacb5168b ""
-  "praktikumsbericht.aux" 1601243813 2257 b51ab794a3fb629ff65a56dac9c94bf1 ""
-  "praktikumsbericht.bbl" 1601243813 1350 30bf4dd81a48e4ed8e5cb1b29381e052 "bibtex praktikumsbericht"
-  "praktikumsbericht.tex" 1601244948 16657 b8676140eaabc85c7dba93c1082f2210 ""
+  "figs/plotsPraktikum.png" 1601313766 135935 b61289f178f824aa0b43bced19bb5041 ""
+  "praktikumsbericht.aux" 1601314875 2019 14c9f1122f32c91e5abb90b75c9905b0 ""
+  "praktikumsbericht.bbl" 1601314884 1229 0eeba2767ec0d7f1b36d7cf4c9b0368f "bibtex praktikumsbericht"
+  "praktikumsbericht.tex" 1601314888 17358 49043975678cb7d6a27825a2a5d74b45 ""
   "remreset.sty" 1402907262 1096 6a75275ca00e32428c6f059d2f618ea7 ""
   "svproc.cls" 1469104184 44207 84fdd998887838efe5e0273e7a029560 ""
   (generated)
-  "praktikumsbericht.log"
   "praktikumsbericht.pdf"
+  "praktikumsbericht.log"
   "praktikumsbericht.aux"
